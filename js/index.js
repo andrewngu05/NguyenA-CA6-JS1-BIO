@@ -7,7 +7,7 @@
     let cChoice = prompt('The computer picked Bear!');
 
     let pMessage = `${uname}, You picked ` + pChoice + '!';
-    let cMessage = cChoice;
+    let cMessage = 'The computer picked ' + cChoice + '!';
 
     document.getElementById('pResult').innerHTML = pMessage;
     document.getElementById('cResult').innerHTML = cMessage;
