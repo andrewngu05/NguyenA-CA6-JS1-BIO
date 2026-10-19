@@ -1,11 +1,14 @@
 
-    let uname = prompt(`To continue, please enter your uname: `);
-    let amessage = `You have entered: ${uname}`;
-        console.log(amessage + '!');
+    let uname = prompt(`Welcome to Bear Hunter Ninja! Please enter your name to get started: `);
+    let amessage = `Hi ${uname} Lets play!!`;
+        alert(amessage);
 
     let pChoice = prompt('Who are you: Bear, Ninja, or Hunter?');
     let cChoice= prompt('The computer picked Bear!');
 
+    let pMessage = `${uname}, You picked ` + pChoice + '!';
+    let cMessage = 'The computer picked ' + cChoice + '!';
+    
     document.getElementById('pResult').innerHTML = pChoice;
     document.getElementById('cResult').innerHTML = cChoice;
 
