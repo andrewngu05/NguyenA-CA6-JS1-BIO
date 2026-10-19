@@ -4,10 +4,10 @@
         alert(amessage);
 
     let pChoice = prompt('Who are you: Bear, Ninja, or Hunter?');
-    let cChoice = 'Bear';
+    let cChoice = prompt('The computer picked Bear!');
 
     let pMessage = `${uname}, You picked ` + pChoice + '!';
-    let cMessage = 'The computer picked ' + cChoice + '!';
+    let cMessage = cChoice;
 
     document.getElementById('pResult').innerHTML = pMessage;
     document.getElementById('cResult').innerHTML = cMessage;
