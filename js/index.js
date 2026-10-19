@@ -8,9 +8,9 @@
 
     let pMessage = `${uname}, You picked ` + pChoice + '!';
     let cMessage = 'The computer picked ' + cChoice + '!';
-    
-    document.getElementById('pResult').innerHTML = pChoice;
-    document.getElementById('cResult').innerHTML = cChoice;
+
+    document.getElementById('pResult').innerHTML = pMessage;
+    document.getElementById('cResult').innerHTML = cMessage;
 
     console.log(pChoice);
     console.log(cChoice);
