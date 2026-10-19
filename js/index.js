@@ -4,7 +4,7 @@
         alert(amessage);
 
     let pChoice = prompt('Who are you: Bear, Ninja, or Hunter?');
-    let cChoice= prompt('The computer picked Bear!');
+    let cChoice = 'Bear';
 
     let pMessage = `${uname}, You picked ` + pChoice + '!';
     let cMessage = 'The computer picked ' + cChoice + '!';
